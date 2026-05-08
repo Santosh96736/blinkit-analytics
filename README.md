@@ -1,7 +1,18 @@
 # Blinkit Analytics – End-to-End Data Pipeline & Analysis
 
 ## Project Overview
-This project focuses on building an end-to-end data analytics pipeline for Blinkit by transforming raw operational data into structured, analysis-ready datasets.
+Developed an end-to-end analytics solution for Blinkit to analyze sales performance, customer behavior, delivery efficiency, and business trends using SQL, Python, MySQL, and Tableau.
+
+The project transforms raw operational datasets into business-ready analytical models and interactive dashboards to support data-driven decision-making.
+
+---
+
+## Business Objectives
+- Analyze revenue and order performance trends
+- Understand customer purchasing and retention behavior
+- Identify high-performing products and categories
+- Evaluate customer engagement patterns
+- Build interactive dashboards for business reporting
 
 ---
 
@@ -13,19 +24,18 @@ This project focuses on building an end-to-end data analytics pipeline for Blink
 
 ---
 
-## Data Pipeline
-- Built a Python pipeline to ingest raw Excel data into MySQL
-- Performed data validation (null checks, duplicates, data types)
-- Cleaned and transformed datasets for consistency
-- Ensured referential integrity across tables
-
----
-
-## Data Modeling
-- Designed a normalized relational database schema
-- Implemented primary key and foreign key constraints
-- Created fact and dimension views for structured analysis
-- Centralized business logic (e.g., revenue calculation)
+## Data Engineering & Processing
+- Built a Python-based ETL pipeline to load raw Excel datasets into MySQL
+- Performed:
+> - null handling
+> - duplicate validation
+> - data type standardization
+> - consistency checks
+- Implemented relational database modeling with:
+> - primary keys
+> - foreign keys
+> - normalized schema design
+- Created analytical views and reusable SQL transformations for dashboard reporting
 
 ---
 
@@ -39,17 +49,35 @@ This project focuses on building an end-to-end data analytics pipeline for Blink
 
 ---
 
-## Key Work
-- Data cleaning & validation
-- ETL pipeline development
-- SQL-based data transformation
-- Data modeling for analytics
+## Key Analytics Performed
+
+### Sales Analysis
+- Revenue trend analysis
+- Peak sales hour analysis
+- Top-performing products and categories
+- Year-over-Year revenue comparison
+- Average order value analysis
+
+### Customer Analysis
+- Customer growth trend analysis
+- Repeat vs one-time customer analysis
+- Customer order frequency distribution
+- Revenue per customer analysis
+- Top customer contribution analysis
 
 ---
 
-## Next Steps
-- Building KPIs
-- Developing Tableau dashboards
-- Performing business analysis
+## Key Insights
+- Revenue showed YoY decline driven by weaker category performance
+- Customer acquisition and engagement gradually decreased over time
+- Most customers placed only 1–2 orders, indicating retention opportunities
+- Revenue concentration was driven by a limited group of high-value customers
+
+
+---
+
+## Future Enhancements
+- Marketing campaign performance analysis
+- Delivery performance analysis
 
 ---
