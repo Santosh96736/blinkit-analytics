@@ -72,7 +72,8 @@ The project transforms raw operational datasets into business-ready analytical m
 - Customer acquisition and engagement gradually decreased over time
 - Most customers placed only 1–2 orders, indicating retention opportunities
 - Revenue concentration was driven by a limited group of high-value customers
-
+  
+![Customer Dashboard](https://github.com/Santosh96736/blinkit-analytics/blob/main/tableau/customer_dashboard.png)
 
 ---
 
